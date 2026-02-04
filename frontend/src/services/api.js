@@ -25,8 +25,7 @@ import axios from 'axios';
  * - Em desenvolvimento: http://localhost:3000
  * - Em producao: usa VITE_API_URL ou assume mesmo dominio (string vazia)
  */
-const API_BASE_URL = import.meta.env.VITE_API_URL ??
-  (import.meta.env.PROD ? '' : 'http://localhost:3000');
+const API_BASE_URL = 'https://trabalho-web-final-2.onrender.com';
 
 /**
  * Cria instancia do Axios com configuracoes padrao
