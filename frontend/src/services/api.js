@@ -36,11 +36,12 @@ const API_BASE_URL = 'https://trabalho-web-final-2.onrender.com';
  * headers: Define Content-Type padrao como JSON
  */
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: API_BASE_URL,
   headers: {
     'Content-Type': 'application/json',
   },
 });
+
 
 // ============================================
 // HELPER PARA URLs DE IMAGEM
